@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(240, 119, 119);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.premium-info {
+    margin-bottom: 20px;
+}
+
+.payment-button {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.payment-button:hover {
+    background-color: #0d8bd8;
+}
+
+.confirmation {
+    display: none;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.tick {
+    color: yellow;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.confirmation-text {
+    font-size: 18px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Product Payment</title>
+</head>
+<body style="font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background-color: #f4f4f4;">
+    <div style="text-align: center; background-color: blue; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+        <h1>Get Premium</h1>
+        <div style="margin-bottom: 20px;">
+            <p>Unlock premium features with a one-time payment.</p>
+        </div>
+        <button style="background-color: #1da1f2; color: white; border: none; padding: 10px 20px; border-radius: 5px; font-size: 16px; cursor: pointer;" onclick="handlePayment()">Pay for Premium</button>
+        <div id="confirmation" style="display: none; align-items: center; margin-top: 20px;">
+            <span style="color: yellow; font-size: 24px; margin-right: 10px;">&#10004;</span>
+            <span style="font-size: 18px;">You are now a premium member!</span>
+        </div>
+    </div>
+
+    <script>
+        function handlePayment() {
+            // Simulate payment process
+            setTimeout(() => {
+                document.getElementById('confirmation').style.display = 'flex';
+            }, 1000); // Simulating a delay for the payment process
+        }
+    </script>
+
+
+    <div style="margin-bottom: 20px;">
+        <h2>Perks of Being a Premium Member:</h2>
+        <ul style="list-style-type: disc; padding-left: 20px;">
+            <li>Ad-free experience</li>
+            <li>Access to exclusive content</li>
+            <li>Priority customer support</li>
+            <li>Early access to new features</li>
+            <li>Unlimited visibility</li>
+            <li>Monitizataion Eligiblity</li>
+        </ul>
+    </div>   
+</body>
+</html>
